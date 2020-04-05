@@ -1,8 +1,5 @@
 import re
-
-MB = 'mb'
-KB = 'kb'
-BYTES = 'b'
+from app.units import (MB, KB)
 
 
 class Memory:
