@@ -6,3 +6,6 @@ class Disk():
 
     def free(self):
         return 0
+
+    def total(self):
+        return 0
