@@ -1,0 +1,14 @@
+version: 1
+handlers:
+  xyzconsole:
+    class : logging.StreamHandler
+  xyzfile:
+    class: logging.FileHandler
+    filename: 'check.log'
+loggers:
+  __main__:
+    level: DEBUG
+    handlers: [xyzconsole]
+  app:
+    level: INFO
+    handlers: [xyzconsole]
